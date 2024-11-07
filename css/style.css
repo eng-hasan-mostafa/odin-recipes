@@ -1,0 +1,29 @@
+
+*{
+    font-family: "Times New Roman", sans-serif;
+}
+
+h1,
+h2 {
+    background-color: rgb(100,60,120);
+    color: #ffffff;
+    text-align: center;
+}
+
+.recipes-list {
+    text-align: center;
+    background-color: rgb(100,60,120);
+    list-style-type: none;
+}
+
+.recipes-list a {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.recipe-img {
+    text-align: center;
+    width: 600px;
+    height: auto;
+}
