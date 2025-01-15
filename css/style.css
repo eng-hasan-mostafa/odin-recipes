@@ -1,6 +1,8 @@
 
 *{
     font-family: "Times New Roman", sans-serif;
+    margin: 0px;
+    box-sizing:border-box;
 }
 
 h1,
@@ -8,6 +10,8 @@ h2 {
     background-color: rgb(100,60,120);
     color: #ffffff;
     text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;    
 }
 
 .recipes-list {
@@ -22,8 +26,17 @@ h2 {
     font-weight: 700;
 }
 
+.recipes-list li {
+    padding:8px;
+}
+
 .recipe-img {
-    text-align: center;
-    width: 600px;
+    /* text-align: center; */
+    width: 500px;
     height: auto;
 }
+
+section {
+    margin-bottom: 20px;
+}
+
